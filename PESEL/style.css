@@ -1,0 +1,102 @@
+.first {
+  text-align: center;
+  background-color: rgb(208, 182, 169);
+  position: absolute;
+  left: 0px;
+  top: 290px;
+  width: 100%;
+  height: 300px;
+  z-index: 5;
+}
+.second {
+  display: flex;
+  background-color: rgb(246, 229, 221);
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 100%;
+  height: 243px;
+  z-index: 4;
+}
+.third {
+  background-color: rgb(47, 25, 14);
+  position: absolute;
+  left: -0px;
+  top: 589px;
+  width: 100%;
+  height: 20px;
+  z-index: 3;
+}
+.fourth {
+  background-color: rgb(47, 25, 14);
+  position: absolute;
+  left: -0px;
+  top: -4px;
+  width: 100%;
+  height: 79px;
+  z-index: 2;
+}
+._1 {
+  background-image: url("1.png");
+  position: absolute;
+  left: 0px;
+  top: 72px;
+  width: 387px;
+  height: 243px;
+  z-index: 6;
+}
+.second p {
+  position: relative;
+  font-size: 28px;
+  font-family: "Myriad Pro";
+  color: rgb(74, 32, 32);
+  font-weight: bold;
+  line-height: 0.071;
+  right: -300px;
+  top:20px;
+}
+
+.second ol li{
+  position: relative;
+  right: -80px;
+  top:90px;
+}
+.fourth p {
+  font-size: 28px;
+  font-family: "Myriad Pro";
+  color: rgb(226, 226, 145);
+  font-weight: bold;
+  line-height: 0.071;
+  position: relative;
+  text-align: center;
+}
+.third p {
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  color: rgb(198, 184, 124);
+  font-weight: bold;
+  line-height: 0.071;
+  position: relative;
+
+}
+.first p{
+  font-family: "Myriad Pro";
+  color: black;
+  font-weight: bold;
+  line-height: 0% ;
+}
+.body {
+  color:#F6E5DC
+}
+.first h1 {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: black;
+  font-weight: bold;
+  line-height: 0.071;
+}
+.first .checkclass{
+  position: relative;
+  right:280px;
+  top:23px;
+}
