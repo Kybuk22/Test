@@ -5,7 +5,7 @@ id Int IDENTITY(1,1),
 nazwa VARCHAR(100) ,
 miasto VARCHAR(100) ,
 ulica VARCHAR(100),
-number Int ,
+number Int 
 )
 GO
 Create table dania (
@@ -27,7 +27,7 @@ Create table pracownicy(
 id Int IDENTITY(1,1), 
 imie VARCHAR(100),
 nazwa VARCHAR(100),
-stanowisko Int,
+stanowisko Int
 )
 GO
 Insert into rezerwacje 
