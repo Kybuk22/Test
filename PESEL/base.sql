@@ -41,5 +41,5 @@ Select nazwa from dania
 Where cena <15
 
 Update pracownicy
-Set stanowiska='barman'
-Where stanowiska='kelner'
+Set stanowisko='barman'
+Where stanowisko='kelner'
