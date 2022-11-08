@@ -70,7 +70,9 @@ GO
 
 
 
-
+Select * 
+From restaurant_table restabl
+Cross Join reservation resrv
 
 Select DISTINCT restabl.id,restabl.name,restabl.number_of_guests,restabl.restaurant_id
 From restaurant_table restabl
