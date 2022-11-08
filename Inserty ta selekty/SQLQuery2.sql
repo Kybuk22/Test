@@ -94,7 +94,7 @@ Select *
 From employee
 Left JOIN employment employm
 On employm.employee_id=employee.id
-Where employm.employee_position_id is Null /* переработай,нула нет */
+Where employm.employee_position_id is Null 
 
 Select employee.id
 From employee
