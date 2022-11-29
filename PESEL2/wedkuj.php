@@ -21,7 +21,7 @@
         <div class='leww'><p>Ryby drapieżne naszych wód </p> <?php
                         require_once 'script.php';
                         Skrypt_2();
-                        Closed()
+                        Closed();
                     ?></div>
         <div class="prawy"><img class="ryba" src="ryba_1.jpg"><div><a alt="Sum" class="pobiez_kwerendy" href='kwerendy.txt'>pobiez kwerendy</a></div></div>
     </div>
