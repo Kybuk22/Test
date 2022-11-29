@@ -13,7 +13,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-                echo "nazwa: " . $row[" r.nazwa"]. " plywa w rzece " . $row["akwen"]. " " . $row["wojewodstwo"] ;
+                echo "<li>nazwa: " . $row[" r.nazwa"]. " plywa w rzece " . $row["akwen"]. " " . $row["wojewodstwo"]."</li>"  ;
         }
         }}
     function Skrypt_2(){
@@ -25,7 +25,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-                echo " " . $row["id"]. " ". $row["Ryby_id"]. " " .$row["akwen"]." ".$row["akwen"]." ".$row["wojewodstwo"]." ".$row["rodzaj"] ;
+                echo "<li> " . $row["id"]." ". $row["Ryby_id"]." ".$row["akwen"]." ".$row["wojewodstwo"]." ".$row["rodzaj"]."</li>" ;
             }
         
     }}
