@@ -1,11 +1,11 @@
 <?php 
-    
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "wedkowanie";
+    $conn = new mysqli($servername, $username, $password, $dbname);
     function Skrypt_1(){
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "wedkowanie";
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        global $servername, $username, $password, $dbname,$conn;
         if ($conn->connect_error) {
           die("Connection failed: " . $conn->connect_error);
         }
@@ -14,15 +14,10 @@
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 echo "nazwa: " . $row[" r.nazwa"]. " plywa w rzece " . $row["akwen"]. " " . $row["wojewodstwo"] ;
-        $conn->close();
         }
         }}
     function Skrypt_2(){
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "wedkowanie";
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        global $servername, $username, $password, $dbname,$conn;
         if ($conn->connect_error) {
           die("Connection failed: " . $conn->connect_error);
         }
@@ -32,8 +27,11 @@
             while($row = $result->fetch_assoc()) {
                 echo " " . $row["id"]. " ". $row["Ryby_id"]. " " .$row["akwen"]." ".$row["akwen"]." ".$row["wojewodstwo"]." ".$row["rodzaj"] ;
             }
-        $conn->close();
         
     }}
+    function Closed(){
+        global $conn;
+        $conn->close();
 
+    }
 ?>
