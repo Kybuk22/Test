@@ -1,8 +1,4 @@
 <?php 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "wedkowanie";
     
     function Skrypt_1(){
         $servername = "localhost";
@@ -39,8 +35,5 @@
         $conn->close();
         
     }}
-   
-    
-
 
 ?>
