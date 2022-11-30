@@ -21,9 +21,9 @@
         <div class='leww'><p>Ryby drapieżne naszych wód </p>
                 <table class='tabble'>
                     <tr>
-                        <th style="left:180px; position: absolute;border: 1px solid #4FB3DF;">L.p.</th>
-                        <th style="left:210px; position: absolute;border: 1px solid #4FB3DF;">Gatunek</th>
-                        <th style="left:270px; position: absolute;border: 1px solid #4FB3DF;">Występowanie</th>
+                        <th style="left:180px; position: absolute;border: 1px solid #4FB3DF;width:3%;">L.p.</th>
+                        <th style="left:210px; position: absolute;border: 1px solid #4FB3DF;width:9%;">Gatunek</th>
+                        <th style="left:293px; position: absolute;border: 1px solid #4FB3DF;width:17.1%;">Występowanie</th>
                         
                     </tr>
                     <tr>
