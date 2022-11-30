@@ -27,7 +27,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-                echo "<h5 style='left:180px; position: relative; margin: 0px; top:18px;border: 1px solid #4FB3DF;width:40%;'> " . $row["id"]." ". $row["nazwa"]." ".$row["wystepowanie"]."</h5>" ;
+                echo "<h5 style='left:180px; position: relative; margin: 0px; top:18px;border: 1px solid #4FB3DF;width:30%;'> " . $row["id"]." ". $row["nazwa"]." ".$row["wystepowanie"]."</h5>" ;
             }
         
     }}
