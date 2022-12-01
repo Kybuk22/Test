@@ -1,0 +1,17 @@
+select id,nazwa,wystepowanie
+from Ryby
+Where styl_zycia = 1
+
+Select Ryby_id,wymiar_ochronny
+From Okres_ochronny
+Where wymiar_ochronny<30
+
+Select nazwa,akwen,wojewodswto
+From ryby r
+Inner Join Lowisko l
+On r.id=l.id
+
+ALTER TABLE Ryby
+	Add dobowy_limit tinyint;
+
+
