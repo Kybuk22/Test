@@ -30,7 +30,6 @@
                         Closed();
                         ?>
                 </table>
-                <table style='position:absolute;top:50px;display:flex;'></table>
                         </div>
         <div class="prawy"><img class="ryba" src="ryba_1.jpg" alt="Sum"><div><a class="pobiez_kwerendy" href='kwerendy.txt'>pobiez kwerendy</a></div></div>
     </div>
