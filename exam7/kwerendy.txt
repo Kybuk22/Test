@@ -1,0 +1,4 @@
+zapytanie 1:Select id,nazwa,opis,cena From podzespoly Where cena<1000
+zapytanie 2:Select nazwa,opis From podzespoly Left Join Procucenci On podzespoly.procucenci_id=Procucenci.id  Where dostepnosc=1 AND Procucenci.nazwa="Intel"
+zapytanie 3:Select nazwa From podzespoly Left Join Procucenci On podzespoly.procucenci_id=Procucenci.id
+zapytanie 4:Update producenci Where nazwa="Patriot" Set nazwa="PATRIOT"

@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+
+}
+ul{
+	list-style-type: none;
+	display: flex;
+}
+header{
+	display: flex;
+}
+.logo ,.menu{
+	background:  #63AC74;
+	color:orange;
+	height:140px;
+	width:50%;
+	text-align: right;
+	font-size:160%;
+}
+
+.glowny{
+	background: #E3F6E7;
+	height: 500px;
+	padding: 20px;
+}
+
+.fo1 ,.fo2,.fo3,.fo4{
+	background: #63AC74;
+	height:150px;
+	width: 25%;
+}
+footer{
+	display:flex;
+}
+
+a{
+	color:orange;
+	margin: 0 15px;
+}
+table{
+	width: 100%;
+	border:2px solid;
+	border-color:green;
+}
+th{
+	background: #63AC74;
+	color:white;
+}
+.forright{
+	text-align: right;
+}
