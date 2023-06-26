@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+</head>
+<body>
+    <div class="prac"></div>
+    <div class="genhas">
+        <h3>Ile znaków? <input type="number" id="1"></h3><br>
+        <p><input type="checkbox" id="2">Male i wielkie litery</p>
+        <p><input type="checkbox" id="3">Cyfry</p>
+        <p><input type="checkbox" id="4">Znaki</p>
+        <input type="button" id="5" value="Generuj" onclick="okand()">
+        <p id="6"></p>
+    </div>
+
+</body>
+    <script>
+        function okand(){
+            var chars="";
+            var password="";
+            var leng=Number(document.getElementById("1").value);
+            leng=leng-1;
+            if(document.getElementById("2").checked==true){
+                chars+="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            }
+            if(document.getElementById("3").checked==true){
+                chars+="0123456789";
+            }
+            if(document.getElementById("4").checked==true){
+                chars+="!@#$%^&*()"
+            }
+            i
+            for (var i = 0; i <= leng; i++) {
+                var randomNumber = Math.floor(Math.random() * chars.length);
+                password += chars.substring(randomNumber, randomNumber +1);
+            }
+            console.log(password);
+            document.getElementById("6").innerText=password;
+        }
+    </script>
+</html>
