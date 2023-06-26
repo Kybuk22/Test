@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Container{
+    display: flex;
+}
+
+.Baner{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    background-color: #B284BE;
+    font-size: 120%;
+    text-align: center;
+}
+
+.Lewy{
+    background-color: #BCE27F;
+    height: 600px;
+    width: 25%;
+    font-size: 120%;
+    margin:0px;
+}
+
+.Prawy{
+    background-color: #BCE27F;
+    height: 600px;
+    width: 30%;
+    font-size: 130%;
+    text-align: center;
+    margin:0px;
+}
+
+.Srodek{
+    background-color: #BCE27F;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    margin:0px;
+}
+
+.Stopka{
+    background-color:  #B284BE;
+    height: 60px;
+    text-align: left;
+    padding:5px;
+    margin:0px;
+
+}
+
+h2{
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Obraz{
+    margin-top: 50px;
+}
+
+.Form{
+    margin-bottom: 100px;
+}
+
+.List{
+    background-color: #B284BE;
+}
+.List ul{
+    padding-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.List li{
+    background-color: #B284BE;
+    padding-top: 20px;
+    width: 100%;
+}

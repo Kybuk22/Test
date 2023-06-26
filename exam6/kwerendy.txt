@@ -1,0 +1,10 @@
+1.
+SELECT Nazwa  FROM `towary` Where promocja is NOT NULL
+2.
+SELECT cena  FROM towary  Where nazwa='cienkopis'
+3.
+SELECT dostawcy.Nazwa, COUNT(towary.IdDostawcy) AS 'ilosc' FROM dostawcy JOIN towary ON dostawcy.id = towary.IdDostawcy GROUP BY dostawcy.Nazwa;
+4.
+ALTER TABLE `dostawcy`
+ADD e_mail TEXT;
+
